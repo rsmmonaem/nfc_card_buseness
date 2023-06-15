@@ -1,0 +1,125 @@
+
+.card {
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+  line-height: 1.4em;
+  border-radius: 19px;
+  background-color: #141414;
+  color: #ffffff;
+}
+
+.card * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.card .card-bg {
+    max-width: 100%;
+    width: 100%;
+    vertical-align: top;
+    opacity: 0.85;
+}
+
+.card figcaption {
+  width: 100%;
+  padding: 25px;
+  position: relative;
+  background-color: #141414;
+}
+
+.card figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 0 0 400px;
+  border-color: transparent transparent transparent #141414;
+}
+
+.card figcaption a:hover {
+  opacity: 1;
+}
+
+.card .profile {
+    border-radius: 50%;
+    position: absolute;
+    bottom: 100%;
+    left: 25px;
+    z-index: 1;
+    width: 164px;
+    height: 164px;
+    opacity: 1;
+    box-shadow: 0 0 15px rgb(0 0 0 / 30%);
+}
+
+.card h2 {
+  margin: 0 0 5px;
+  font-weight: 300;
+}
+
+.card h2 span {
+  display: block;
+  font-size: 0.5em;
+  color: #2980b9;
+}
+
+.card p {
+  margin: 0 0 10px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.contact-details .icon-circle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    font-size: 21px;
+    height: 42px;
+    width: 42px;
+    border-radius: 100%;
+    padding: 0 10px;
+}
+
+.contact-details .icon-circle i {
+  font-size: 21px !important;
+  background: #141414;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-outline-dark {
+  color: #ffffff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #ffffff;
+}
+
+.article .article-header .article-title h2 a {
+  color: #ffffff;
+}
+
+.product-item .product-name {
+  color: #ffffff;
+}
+
+.article.article-style-b .article-details p {
+  color: #ffffff;
+}
+
+.article .article-header .article-badge .article-badge-item{
+  background: #141414;
+  color: #ffffff;
+}
+
+.contact-details-item {
+  color: #ffffff;
+  }

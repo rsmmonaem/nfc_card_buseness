@@ -1,0 +1,119 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+font-family: var(--card-font);
+background: var(--theme-gb);
+color: var(--card-font-color);
+}
+
+.card {
+    background: var(--card-gb);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-header{
+    border-bottom: 0;
+}
+
+.article {
+    background: transparent;
+}
+
+.article .article-details {
+    background: transparent;
+}
+
+.modal-content {
+    background: var(--card-gb);
+}
+
+.form-control, .input-group-text, .custom-select, .custom-file-label {
+    background-color: transparent;
+}
+
+.contact-details .icon-circle i {
+    font-size: 21px !important;
+    background: var(--card-gb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.product-item .product-name {
+    color: var(--card-font-color);
+}
+
+.article .article-header .article-title h2 a {
+    color: var(--card-font-color);
+}
+
+.article.article-style-b .article-details p {
+    color: var(--card-font-color);
+}
+
+.article .article-header .article-badge .article-badge-item{
+    background: var(--card-gb);
+    color: var(--card-font-color);
+}
+
+.btn-outline-dark {
+    color: var(--card-font-color);
+    background-color: transparent;
+    background-image: none;
+    border-color: var(--card-font-color);
+}
+
+.contact-details {
+padding: 8px 0;
+list-style-type: none;
+font-size: 1rem;
+line-height: 1.75rem;
+text-decoration: inherit;
+text-transform: inherit;
+margin: 0;
+font-weight: 400;
+letter-spacing: .009375em;
+}
+
+.contact-details-item {
+display: -webkit-flex;
+display: -moz-box;
+padding: 0.4rem 0rem;
+color: var(--card-font-color);
+display: flex;
+overflow: hidden;
+height: auto;
+justify-content: flex-start;
+cursor: pointer;
+position: relative;
+-webkit-align-items: center;
+-moz-box-align: center;
+align-items: center;
+-webkit-justify-content: flex-start;
+-moz-box-pack: start;
+}
+
+.contact-details a {
+text-decoration: none;
+}
+
+.contact-details-item h6 {
+font-size: 1.1rem;
+}
+
+.gallery.gallery-md .gallery-item{
+    float: none;
+    width: 129px;
+    height: 129px;
+    margin: 1px;
+}
+
+.float-lang{
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    z-index: 99999;
+}

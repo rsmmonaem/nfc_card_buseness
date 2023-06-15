@@ -1,0 +1,98 @@
+.btn-draggable {
+    cursor: move !important;
+    cursor: -webkit-grab !important; 
+    cursor:    -moz-grab !important; 
+    cursor:         grab !important;
+}
+
+.tickets .ticket-content {
+    width: 100%;
+}
+
+.imagecheck-input:checked ~ .imagecheck-figure{
+    border-color: var(--theme-color);
+}
+
+.imagecheck-image{
+    height: 324px;
+}
+
+.description-wrapper{
+    white-space: pre-wrap;
+}
+
+.sidebar-menu {
+    font-size: 16px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    z-index: 1;
+} 
+
+.paymet-box{
+    margin: 3px;
+    padding: 3px;
+    border: 3px solid #0d1137;
+    border-radius: 5px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+.text-strike {
+    text-decoration: line-through;
+}
+
+.profile-widget .profile-widget-picture{
+    height: 100px;
+}
+
+.navbar .nav-link.nav-link-user img{
+    height: 30px;
+}
+.profile-widget-header .avatar-item .avatar-badge{
+    z-index: 1;
+    bottom: -65px;
+    right: 3px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    background-color: #6777ef;
+}
+
+.user-avatar.avatar.avatar-xl{
+    font-size: 45px;
+    height: 100px;
+    width: 100px;
+}
+
+.select2-container {
+    display: block !important;
+    width: 100% !important;
+}
+
+.system-logos{
+	max-width: 100%;
+    max-height: 100%;
+}
+
+.navbar-logos{
+    padding: 10px;
+    width: auto;
+    height: auto;
+    max-height: 59px;
+}
+
+.code img{
+    width: 100%;
+    height: auto;
+    padding: 25px;
+}
+
+.range{
+    padding: 10px 0px !important;
+}
